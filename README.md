@@ -4,10 +4,10 @@ This repo serve no specific project. I use it to check some smaller things that 
 
 In host class, add:
 
-UPROPERTY(EditAnywhere, Instanced, BlueprintReadWrite)
-TArray<TObjectPtr<UGuessObject>>
+UPROPERTY(EditAnywhere, Instanced, BlueprintReadWrite)  
+TArray<TObjectPtr<UGuestObject\>\> Objects;
 
-Guess class should have specifiers:
+Guest class should have specifiers:  
 UCLASS(Abstract, Blueprintable, EditInlineNew, CollapseCategories)
 
 and thats it.
