@@ -25,6 +25,7 @@ public class Playground : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"Playground",
+			"Playground/Public",
 			"Playground/Variant_Platforming",
 			"Playground/Variant_Platforming/Animation",
 			"Playground/Variant_Combat",
